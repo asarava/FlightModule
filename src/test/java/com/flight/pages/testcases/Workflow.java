@@ -146,7 +146,7 @@ public class Workflow extends TestBase{
 		searchpage.advancedsearch.click();
 		searchpage.travelclassselector(travelclassipdata.get(0));
 		searchpage.paxnoselector(paxnoipdata);
-		
+		searchpage.searchbutton.click();
 
 
 	}
